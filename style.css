@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Iceland;
+}
+
+#root {
+    position: relative;
+}
+
+#root .layer {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#root .main {
+    height: 200vh;
+    z-index: 2;
+}
+
+.logo-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#root .logo-wrapper {
+    width: 1000px;
+    height: 70px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 485px;
+    margin: 0px auto;
+}
+
+#root .flashing {
+    animation: 5s linear 0s infinite normal none running blink;
+}
+
+#root .logo-wrapper .logo {
+    position: absolute;
+    display: inline-block;
+}
+
+#root .logo-wrapper .logo-white {
+    z-index: 2;
+}
+
+#root .logo-wrapper .logo-yellow {
+    opacity: 0.8;
+}
+
+#root .back-img {
+    background-image: url(images/main-photo.jpg);
+    background-size: cover;
+}
+
+#root .back-img-temp {
+    background-image: url(images/group2.png);
+    background-size: cover;
+    width: 100%;
+    height: 400vh;
+    position: absolute;
+    top: 100vh;
+    left: 0px;
+}
+
+#root .side-nav {
+    position: fixed;
+    bottom: 50px;
+    right: 65px;
+    z-index: 3;
+}
+
+#root .scroll-div {
+    position: fixed;
+    font-family: Iceland;
+    font-size: 24px;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: rgb(254, 254, 254);
+    z-index: 3;
+    writing-mode: vertical-lr;
+    bottom: 50px;
+    left: 50px;
+}
+
+#root .scroll-word {
+    display: inline-block;
+    transform: rotate(180deg);
+    margin: 20px;
+}
+
+#root .floating-arrow {
+    position: relative;
+    left: 1px;
+    animation: floatArrow 0.8s ease-in-out 0s infinite alternate none running;
+}
+
+#root .social-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#root .social-btn > svg {
+    width: 66%;
+    height: 66%;
+}
+
+#root .social-btn:hover > svg .cls-1 {
+    fill: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes blink{
+    21%{
+        opacity: 1;
+    }    
+    22%{
+        opacity: 0;
+    }    
+    23%{
+        opacity: 1;
+    }   
+
+    65%{
+        opacity: 1;
+    }    
+    66%{
+        opacity: 0;
+    }    
+    67%{
+        opacity: 1;
+    }    
+    68%{
+        opacity: 0;
+    }    
+    69%{
+        opacity: 1;
+    }    
+
+}

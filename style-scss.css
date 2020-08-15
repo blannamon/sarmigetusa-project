@@ -1,0 +1,213 @@
+#root .arrow-nav {
+  margin-left: 22px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  cursor: pointer;
+}
+
+#root .arrow-nav.pos-change {
+  -webkit-animation: posChange 0.6s ease-out 1 forwards;
+          animation: posChange 0.6s ease-out 1 forwards;
+}
+
+#root .arrow-nav.pos-change-back {
+  -webkit-animation: posChangeBack 0.6s ease-out 1 forwards;
+          animation: posChangeBack 0.6s ease-out 1 forwards;
+}
+
+@-webkit-keyframes posChange {
+  from {
+    -webkit-transform: translateY(0) rotate(180deg);
+            transform: translateY(0) rotate(180deg);
+  }
+  to {
+    -webkit-transform: translateY(45px) rotate(0deg);
+            transform: translateY(45px) rotate(0deg);
+  }
+}
+
+@keyframes posChange {
+  from {
+    -webkit-transform: translateY(0) rotate(180deg);
+            transform: translateY(0) rotate(180deg);
+  }
+  to {
+    -webkit-transform: translateY(45px) rotate(0deg);
+            transform: translateY(45px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes posChangeBack {
+  from {
+    -webkit-transform: translateY(45px) rotate(0deg);
+            transform: translateY(45px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(-180deg);
+            transform: translateY(0px) rotate(-180deg);
+  }
+}
+
+@keyframes posChangeBack {
+  from {
+    -webkit-transform: translateY(45px) rotate(0deg);
+            transform: translateY(45px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(0px) rotate(-180deg);
+            transform: translateY(0px) rotate(-180deg);
+  }
+}
+
+@-webkit-keyframes floatArrow {
+  from {
+    bottom: -5px;
+  }
+  to {
+    bottom: 5px;
+  }
+}
+
+@keyframes floatArrow {
+  from {
+    bottom: -5px;
+  }
+  to {
+    bottom: 5px;
+  }
+}
+
+#root .logo-wrapper {
+  max-width: 90%;
+  width: 1000px;
+}
+
+#root .side-nav {
+  width: 50px;
+}
+
+#root .closed {
+  display: none;
+}
+
+#root .me-icon {
+  font-size: 30px;
+  color: #c8a20f;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: 12px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  -webkit-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+#root .social-icons {
+  margin-left: 5px;
+}
+
+#root .social-btn {
+  bottom: -35px;
+  color: #c8a20f;
+  font-size: 34px;
+}
+
+#root .social-btn.cl-9 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.07s;
+          transition-delay: 0.07s;
+}
+
+#root .social-btn.cl-8 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.14s;
+          transition-delay: 0.14s;
+}
+
+#root .social-btn.cl-7 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.21s;
+          transition-delay: 0.21s;
+}
+
+#root .social-btn.cl-6 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.28s;
+          transition-delay: 0.28s;
+}
+
+#root .social-btn.cl-5 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+#root .social-btn.cl-4 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.42s;
+          transition-delay: 0.42s;
+}
+
+#root .social-btn.cl-3 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.49s;
+          transition-delay: 0.49s;
+}
+
+#root .social-btn.cl-2 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.56s;
+          transition-delay: 0.56s;
+}
+
+#root .social-btn.cl-1 {
+  position: relative;
+  -webkit-transition: opacity 0.7s, bottom 0.4s;
+  transition: opacity 0.7s, bottom 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+          transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1), linear;
+  -webkit-transition-delay: 0.63s;
+          transition-delay: 0.63s;
+}
+
+#root .hidden {
+  opacity: 0;
+  bottom: 0px;
+}
+/*# sourceMappingURL=style-scss.css.map */
