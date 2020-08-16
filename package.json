@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csshake": "^1.5.3"
+    "csshake": "^1.5.3",
+    "swiper": "^6.1.1"
   }
 }

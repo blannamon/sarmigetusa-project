@@ -1,8 +1,18 @@
+let create = (tagName, parent, innerHTML, className) => {
+    let el = document.createElement(tagName);
+    parent.appendChild(el);
+    el.innerHTML = innerHTML;
+    if(className){
+        el.classList.add(className);
+    };
+    return el
+}
+
 (() => {
 
     // HOVER EFFECTS
 
-    let els = document.getElementsByClassName("social-btn");
+    let els = document.querySelectorAll("nav.side-nav .social-icons .social-btn");
     
     for(let item of els){
         item.classList.add('hidden');
@@ -23,6 +33,7 @@
     let shown = false;
 
     let toggleMenu = (isShown) => {
+        
         if(!isShown){
             arrowNav.classList.remove("pos-change-back")
             arrowNav.classList.add("pos-change");
@@ -37,6 +48,7 @@
             arrowNav.classList.remove("pos-change");
             for(let i of els){
                 i.classList.add('hidden')
+                
             }
             me.classList.remove("hidden");
             shown = false;
