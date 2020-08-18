@@ -40,7 +40,7 @@ body {
 }
 
 #root .flashing {
-    animation: 5s linear 0s infinite normal none running blink;
+    animation: blink 5s linear 0s infinite normal none running;
 }
 
 #root .logo-wrapper .logo {
@@ -81,7 +81,7 @@ body {
 #root .scroll-div {
     position: fixed;
     font-family: Iceland;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 0.24px;
     text-align: left;
     color: rgb(254, 254, 254);
@@ -98,6 +98,7 @@ body {
 }
 
 #root .floating-arrow {
+    width: 12px;
     position: relative;
     left: 1px;
     animation: floatArrow 0.8s ease-in-out 0s infinite alternate none running;
@@ -111,8 +112,8 @@ body {
 }
 
 #root .social-btn > svg {
-    width: 66%;
-    height: 66%;
+    width: 50%;
+    height: 50%;
 }
 
 #root .social-btn:hover > svg .cls-1 {
@@ -144,6 +145,34 @@ body {
     }    
     69%{
         opacity: 1;
+    }    
+
+}
+@keyframes blink-shadow{
+    21.5%{
+        box-shadow: -10px 10px 40px #000;
+    }    
+    22%{
+        box-shadow: -10px 10px 40px #c8a20f;
+    }    
+    22.5%{
+        box-shadow: -10px 10px 40px #000;
+    }   
+
+    65.5%{
+        box-shadow: -10px 10px 40px #000;
+    }    
+    66%{
+        box-shadow: -10px 10px 40px #c8a20f;
+    }    
+    67%{
+        box-shadow: -10px 10px 40px #000;
+    }    
+    67.5%{
+        box-shadow: -10px 10px 40px #c8a20f;
+    }    
+    68%{
+        box-shadow: -10px 10px 40px #000;
     }    
 
 }

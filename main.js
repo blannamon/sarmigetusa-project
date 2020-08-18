@@ -1,4 +1,6 @@
-let create = (tagName, parent, innerHTML, className) => {
+const josh = new Josh();
+
+let createDiv = (tagName, parent, innerHTML, className) => {
     let el = document.createElement(tagName);
     parent.appendChild(el);
     el.innerHTML = innerHTML;
@@ -8,14 +10,20 @@ let create = (tagName, parent, innerHTML, className) => {
     return el
 }
 
+// const trigger = new ScrollTrigger({
+//     trigger: {
+//       once: true
+//     }
+//   })
+// trigger.add('[data-trigger]')
+
 (() => {
 
     // HOVER EFFECTS
 
     let els = document.querySelectorAll("nav.side-nav .social-icons .social-btn");
     
-    for(let item of els){
-        item.classList.add('hidden');
+    let makeItFlash = (item) => {
         item.onmouseover = () => {
             let svg = item.children[0];
             svg.classList.add("flashing");
@@ -26,6 +34,18 @@ let create = (tagName, parent, innerHTML, className) => {
         }
     }
 
+    for(let item of els){
+        item.classList.add('hidden');
+        makeItFlash(item);
+    }
+
+    let cover = document.querySelector('.cover')
+    let coverBtns = cover.querySelectorAll('.social-btn')
+    coverBtns.forEach(btn => {
+        makeItFlash(btn)
+    })
+    
+
     // ONCLICK EFFECTS
 
     let arrowNav = document.getElementsByClassName("arrow-nav")[0];
@@ -35,8 +55,8 @@ let create = (tagName, parent, innerHTML, className) => {
     let toggleMenu = (isShown) => {
         
         if(!isShown){
-            arrowNav.classList.remove("pos-change-back")
-            arrowNav.classList.add("pos-change");
+            arrowNav.parentElement.classList.remove("pos-change-back")
+            arrowNav.parentElement.classList.add("pos-change");
             for(let i of els){
                 i.classList.remove('hidden')
             }
@@ -44,8 +64,8 @@ let create = (tagName, parent, innerHTML, className) => {
             shown = true;
         }
         else {
-            arrowNav.classList.add("pos-change-back")
-            arrowNav.classList.remove("pos-change");
+            arrowNav.parentElement.classList.add("pos-change-back")
+            arrowNav.parentElement.classList.remove("pos-change");
             for(let i of els){
                 i.classList.add('hidden')
                 
@@ -58,7 +78,19 @@ let create = (tagName, parent, innerHTML, className) => {
     me.onclick = () => {
         toggleMenu(shown);
     }
-    arrowNav.onclick = () => {
+    arrowNav.parentElement.onclick = () => {
         toggleMenu(shown);
+        
     }
+
+    // TYPED.JS
+    // var options = {
+    //     strings: [''],
+    //     typeSpeed: 40
+    //   };
+      
+    //   var typed = new Typed('.body-about', options);
+
+    
+
 })()

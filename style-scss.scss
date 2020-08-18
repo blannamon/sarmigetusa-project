@@ -2,17 +2,24 @@
     *{
         box-sizing: border-box;
     }
-    .arrow-nav{
-        margin-left: 20px;
-        transform: rotate(180deg);
+    .arrow-nav__wrapper{
+        width: 50px;
+        height: 50px;
         cursor: pointer;
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(180deg);
         &.pos-change{
             animation: posChange 0.6s ease-out 1 forwards;
         }
     
         &.pos-change-back{
             animation: posChangeBack 0.6s ease-out 1 forwards;
+        }
+        .arrow-nav{
+            margin-left: -4px;
+            cursor: pointer;
         }
     }
 
@@ -52,19 +59,20 @@
     }
 
     .me-icon{
-        font-size: 30px;
+        font-size: 28px;
         color: #c8a20f;
         writing-mode: vertical-lr;
         transform: rotate(180deg);
-        margin-left: 10px;
+        margin-left: 12px;
         margin-bottom: 20px;
-        margin-top: 15px;
+        margin-top: 10px;
         cursor: pointer;
         transition: opacity 0.6s;
     }
     
     .social-icons{
-        margin-left: 1px;
+        margin-left: -2px;
+        margin-bottom: -15px;
     }
     
     .social-btn{
@@ -81,7 +89,7 @@
             }
         }
         &.cl-9>svg{
-            width: 57%;
+            width: 50%;
         }
     }
 
@@ -94,7 +102,7 @@
 
     .player-container{
         width: 100%;
-        height: 100vh;
+        height: 70vh;
         
         .player-wrapper{
             display: flex;
@@ -125,6 +133,7 @@
                     width: 250px;
                     height: 250px;
                     background-size: cover;
+                    box-shadow: -10px 10px 40px #000;
                     
                     
                     .play-button{
@@ -142,7 +151,7 @@
                     
                     .platform-btns{
                         position: absolute;
-                        top: 0;
+                        top: -12px;
                         bottom: 0;
                         right: -110px;
                         margin: auto;
@@ -151,6 +160,19 @@
 
                         .social-btn{
                             pointer-events: auto;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            svg{
+                                width: 30px;
+                                height: 30px;
+
+                                &:hover{
+                                    .cls-20{
+                                        fill: #fff;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -171,6 +193,7 @@
                     background: transparent;
                     color: #fff;
                     opacity: 0.25;
+                    cursor: pointer;
         
                     /* Center slide text vertically */
                     display: -webkit-box;
@@ -196,6 +219,82 @@
                     }
                 }
             }
+        }
+    }
+
+    .about-container{
+        width: 100%;
+        height: 70vh;
+        // background-color: red;
+
+        .about-wrapper{
+            width: 70%;
+            height: 100%;
+            margin: 22% auto;
+            // background-color: green;
+            display: flex;
+
+            .txt-container{
+                padding-top: 100px;
+                width: 480px;
+                position: relative;
+                left: 200px;
+                z-index: 10;
+
+                >div{
+                    position: relative;
+                }
+
+                .head-about__wrapper{
+                    p{
+                        margin: 0;
+                        font-size: 80px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+
+                        &.about-txt{
+                            color: white;
+                            z-index: 2;
+
+                            &-yellow{
+                                color: #c8a20f;
+                            }
+                        }
+                    }
+                }
+
+                .body-about__wrapper{
+                    .body-about{
+                        width: 550px;
+                        color: white;
+                        font-size: 30px;
+                        line-height: 36px;
+                        margin: 80px 0 0 6px;
+                    }
+                }
+
+            }
+
+            .img-container{
+                text-align: center;
+                width: 65%;
+                
+                img{
+                    width: 70%;
+                    // box-shadow: -10px 10px 40px #000;
+                    animation: blink-shadow 8s infinite linear;
+                }
+                
+            }
+
+            .visible, .invisible {
+                opacity: 0.0;
+                transition: opacity 0.5s ease;
+              }
+              .visible {
+                opacity: 1.0;
+              }
         }
     }
 }

@@ -24,7 +24,16 @@ let playlist = [
 window.onload = () => {
     let wrapper = document.body.querySelector('.swiper-wrapper')
     for (let {name, image} of playlist){
-        create('div', wrapper, name.toUpperCase(), 'swiper-slide')
+        let createDiv = (tagName, parent, innerHTML, className) => {
+            let el = document.createElement(tagName);
+            parent.appendChild(el);
+            el.innerHTML = innerHTML;
+            if(className){
+                el.classList.add(className);
+            };
+            return el
+        }
+        createDiv('div', wrapper, name.toUpperCase(), 'swiper-slide')
     }
 
 
@@ -35,7 +44,7 @@ window.onload = () => {
         slidesPerView: 5,
         spaceBetween: 0,
         centeredSlides: true,
-        mousewheel: true,
+        slideToClickedSlide: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,

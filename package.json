@@ -9,7 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@terwanerik/scrolltrigger": "^1.0.5",
     "csshake": "^1.5.3",
-    "swiper": "^6.1.1"
+    "joshjs": "^1.0.7",
+    "parallax-js": "^3.1.0",
+    "raf": "^3.4.1",
+    "swiper": "^6.1.1",
+    "typed.js": "^2.0.11",
+    "wc-typed-js": "^1.0.1"
   }
 }
