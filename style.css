@@ -89,6 +89,7 @@ body {
     writing-mode: vertical-lr;
     bottom: 50px;
     left: 50px;
+    animation: floatArrow 0.8s ease-in-out 0s infinite alternate none running;
 }
 
 #root .scroll-word {
@@ -101,7 +102,7 @@ body {
     width: 12px;
     position: relative;
     left: 1px;
-    animation: floatArrow 0.8s ease-in-out 0s infinite alternate none running;
+    
 }
 
 #root .social-btn {

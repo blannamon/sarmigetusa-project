@@ -1,0 +1,1115 @@
+{
+    "id": "6abe103c-b4a6-4f45-b6a5-f892c4c0ac7c",
+    "priceAccuracy": 3,
+    "forceStrictTotals": true,
+    "priceRoundingMode": "Normal",
+    "projectInformation": {
+        "buyer": {
+            "id": "6f791e8d-200c-42a8-a540-00f7193821a6",
+            "name": "Georg Dangl",
+            "email": "info@dangl-it.com",
+            "isInEuropeanEconomicArea": false,
+            "bankingInformation": []
+        },
+        "name": "Neubau Sportheim",
+        "itemNumberSchema": {
+            "totalLength": 7,
+            "tiers": [
+                {
+                    "length": 2,
+                    "type": "Numeric",
+                    "tierType": "Group",
+                    "isLot": false
+                },
+                {
+                    "length": 2,
+                    "type": "Numeric",
+                    "tierType": "Group",
+                    "isLot": false
+                },
+                {
+                    "length": 3,
+                    "type": "Numeric",
+                    "tierType": "Position",
+                    "isLot": false
+                }
+            ]
+        },
+        "currencyShort": "€",
+        "currencyLong": "Euro",
+        "labourTimeLabel": "Stunden",
+        "priceComponents": [
+            "Material",
+            "Geräte"
+        ],
+        "bidderCommentAllowed": false,
+        "sideOffersAllowed": false,
+        "awardType": "Unspecified",
+        "specialAwardKind": "Unspecified"
+    },
+    "serviceSpecifications": [
+        {
+            "id": "9f22043d-d56c-4967-b749-8c764f3204d8",
+            "projectHourlyWage": 0,
+            "projectTaxRate": 0.19,
+            "projectPriceComponents": [
+                "Material",
+                "Geräte"
+            ],
+            "projectItemNumberSchema": {
+                "totalLength": 7,
+                "tiers": [
+                    {
+                        "length": 2,
+                        "type": "Numeric",
+                        "tierType": "Group",
+                        "isLot": false
+                    },
+                    {
+                        "length": 2,
+                        "type": "Numeric",
+                        "tierType": "Group",
+                        "isLot": false
+                    },
+                    {
+                        "length": 3,
+                        "type": "Numeric",
+                        "tierType": "Position",
+                        "isLot": false
+                    }
+                ]
+            },
+
+            
+            "elements": [
+                {
+                    "isOpeningText": false,
+                    "isClosingText": false,
+                    "shortText": "Abgabe bis 15. August",
+                    "additionType": "None",
+                    "longText": "Dies ist ein Beispielprojekt",
+                    "htmlLongText": "<span>Dies ist ein Beispielprojekt</span>",
+                    "elementType": "NoteTextDto",
+                    "id": "d6ae12f3-618d-48a8-af58-4a66b76dcbb4",
+                    "gaebXmlId": "ID_9e053cce-e7ac-484f-900b-113000b8ab97",
+                    "elementTypeDiscriminator": "NoteTextDto"
+                },
+                {
+                    "projectHourlyWage": 0,
+                    "projectTaxRate": 0.19,
+                    "projectPriceComponents": [
+                        "Material",
+                        "Geräte"
+                    ],
+                    "projectItemNumberSchema": {
+                        "totalLength": 7,
+                        "tiers": [
+                            {
+                                "length": 2,
+                                "type": "Numeric",
+                                "tierType": "Group",
+                                "isLot": false
+                            },
+                            {
+                                "length": 2,
+                                "type": "Numeric",
+                                "tierType": "Group",
+                                "isLot": false
+                            },
+                            {
+                                "length": 3,
+                                "type": "Numeric",
+                                "tierType": "Position",
+                                "isLot": false
+                            }
+                        ]
+                    },
+
+                    "elements": [
+                        {
+                            "projectHourlyWage": 0,
+                            "projectTaxRate": 0.19,
+                            "projectPriceComponents": [
+                                "Material",
+                                "Geräte"
+                            ],
+                            "projectItemNumberSchema": {
+                                "totalLength": 7,
+                                "tiers": [
+                                    {
+                                        "length": 2,
+                                        "type": "Numeric",
+                                        "tierType": "Group",
+                                        "isLot": false
+                                    },
+                                    {
+                                        "length": 2,
+                                        "type": "Numeric",
+                                        "tierType": "Group",
+                                        "isLot": false
+                                    },
+                                    {
+                                        "length": 3,
+                                        "type": "Numeric",
+                                        "tierType": "Position",
+                                        "isLot": false
+                                    }
+                                ]
+                            },
+                            "elements": [
+                                {
+                                    "unitPrice": 800,
+                                    "quantity": 1,
+                                    "unitTag": "Psch.",
+                                    "labourComponents": {
+                                        "label": "Stunden",
+                                        "price": 0,
+                                        "hourlyWage": 0,
+                                        "values": [],
+                                        "useOwnHourlyWage": false,
+                                        "totalTime": 0
+                                    },
+                                    "priceComponents": [
+                                        {
+                                            "price": 0,
+                                            "label": "Material",
+                                            "values": []
+                                        },
+                                        {
+                                            "price": 0,
+                                            "label": "Geräte",
+                                            "values": []
+                                        },
+                                        {
+                                            "price": 800,
+                                            "label": "",
+                                            "values": [
+                                                {
+                                                    "formula": "800",
+                                                    "result": 800,
+                                                    "valid": true,
+                                                    "errorPositionInLine": -1
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "quantityComponents": [
+                                        {
+                                            "formula": "1",
+                                            "result": 1,
+                                            "valid": true,
+                                            "errorPositionInLine": -1
+                                        }
+                                    ],
+                                    "subDescriptions": [],
+                                    "comissionStatus": "Undefined",
+                                    "complementedBy": [],
+                                    "complemented": false,
+                                    "amountToBeEnteredByBidder": false,
+                                    "priceCompositionRequired": false,
+                                    "useDifferentTaxRate": false,
+                                    "taxRate": 0.19,
+                                    "itemNumber": {
+                                        "id": "45098e31-3a5a-400f-83dd-2a1f3f5ba1fd",
+                                        "stringRepresentation": "01.01.001",
+                                        "isSchemaCompliant": true,
+                                        "itemNumberSchema": {
+                                            "totalLength": 7,
+                                            "tiers": [
+                                                {
+                                                    "length": 2,
+                                                    "type": "Numeric",
+                                                    "tierType": "Group",
+                                                    "isLot": false
+                                                },
+                                                {
+                                                    "length": 2,
+                                                    "type": "Numeric",
+                                                    "tierType": "Group",
+                                                    "isLot": false
+                                                },
+                                                {
+                                                    "length": 3,
+                                                    "type": "Numeric",
+                                                    "tierType": "Position",
+                                                    "isLot": false
+                                                }
+                                            ]
+                                        },
+                                        "identifiers": [
+                                            "01",
+                                            "01",
+                                            "001"
+                                        ],
+                                        "isLot": false
+                                    },
+                                    "deductionFactor": 0,
+                                    "totalPrice": 800,
+                                    "totalPriceGross": 952,
+                                    "totalPriceGrossDeducted": 952,
+                                    "deductedPrice": 800,
+                                    "positionType": "Regular",
+                                    "priceType": "WithTotal",
+                                    "serviceType": "Regular",
+                                    "shortText": "Baustelleneinrichtung",
+                                    "longText": "Einrichtung der Baustelle inkl. Kran",
+                                    "htmlLongText": "<span>Einrichtung der Baustelle inkl. Kran</span>",
+                                    "additionType": "None",
+                                    "elementType": "PositionDto",
+                                    "quantityAssignments": [],
+                                    "isLumpSum": false,
+                                    "projectCatalogues": [],
+                                    "catalogueReferences": [],
+                                    "complementedByQuantities": [],
+                                    "id": "b1a4725a-3b6c-479c-ba9a-6a3f82be1c89",
+                                    "gaebXmlId": "ID_30f298d8-0f54-4bd4-8cdd-970ab2fe8444",
+                                    "elementTypeDiscriminator": "PositionDto"
+                                }
+                            ],
+                            "projectLabourTimeLabel": "Stunden",
+                            "containsDuplicateItemNumbers": false,
+                            "containsDuplicateElementIds": false,
+                            "ignoreDuplicateItemNumbers": false,
+                            "ignoreDuplicateElementIds": false,
+                            "totalPriceGrossByTaxRate": [
+                                {
+                                    "taxRate": 0.19,
+                                    "deductionFactor": 0,
+                                    "totalNet": 800,
+                                    "totalDeducted": 800,
+                                    "totalTax": 152,
+                                    "totalGross": 952
+                                }
+                            ],
+                            "ignoreChildPriceUpdates": false,
+                            "deductedPrice": 800,
+                            "deductionFactor": 0,
+                            "totalPrice": 800,
+                            "totalPriceGross": 952,
+                            "totalPriceGrossDeducted": 952,
+                            "priceType": "WithTotal",
+                            "shortText": "Allgemein",
+                            "comissionStatus": "Undefined",
+                            "itemNumber": {
+                                "id": "28f8856b-2b92-436a-bcb7-33e2f31d13b4",
+                                "stringRepresentation": "01.01.",
+                                "isSchemaCompliant": true,
+                                "itemNumberSchema": {
+                                    "totalLength": 7,
+                                    "tiers": [
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 3,
+                                            "type": "Numeric",
+                                            "tierType": "Position",
+                                            "isLot": false
+                                        }
+                                    ]
+                                },
+                                "identifiers": [
+                                    "01",
+                                    "01"
+                                ],
+                                "isLot": false
+                            },
+                            "elementType": "ServiceSpecificationGroupDto",
+                            "isLot": false,
+                            "projectCatalogues": [],
+                            "catalogueReferences": [],
+                            "id": "7710fb99-a0e6-46b2-adca-a3b94a603d13",
+                            "gaebXmlId": "ID_aa21e69c-a0eb-43e5-8d84-c8cebbf043ba",
+                            "elementTypeDiscriminator": "ServiceSpecificationGroupDto"
+                        }
+                    ],
+                    "projectLabourTimeLabel": "Stunden",
+                    "containsDuplicateItemNumbers": false,
+                    "containsDuplicateElementIds": false,
+                    "ignoreDuplicateItemNumbers": false,
+                    "ignoreDuplicateElementIds": false,
+                    "totalPriceGrossByTaxRate": [
+                        {
+                            "taxRate": 0.19,
+                            "deductionFactor": 0,
+                            "totalNet": 800,
+                            "totalDeducted": 800,
+                            "totalTax": 152,
+                            "totalGross": 952
+                        }
+                    ],
+                    "ignoreChildPriceUpdates": false,
+                    "deductedPrice": 800,
+                    "deductionFactor": 0,
+                    "totalPrice": 800,
+                    "totalPriceGross": 952,
+                    "totalPriceGrossDeducted": 952,
+                    "priceType": "WithTotal",
+                    "shortText": "Hauptgebäude",
+                    "comissionStatus": "Undefined",
+                    "itemNumber": {
+                        "id": "8b3e65d0-4fc3-4d34-97dc-905666b1bc59",
+                        "stringRepresentation": "01.",
+                        "isSchemaCompliant": true,
+                        "itemNumberSchema": {
+                            "totalLength": 7,
+                            "tiers": [
+                                {
+                                    "length": 2,
+                                    "type": "Numeric",
+                                    "tierType": "Group",
+                                    "isLot": false
+                                },
+                                {
+                                    "length": 2,
+                                    "type": "Numeric",
+                                    "tierType": "Group",
+                                    "isLot": false
+                                },
+                                {
+                                    "length": 3,
+                                    "type": "Numeric",
+                                    "tierType": "Position",
+                                    "isLot": false
+                                }
+                            ]
+                        },
+                        "identifiers": [
+                            "01"
+                        ],
+                        "isLot": false
+                    },
+                    "elementType": "ServiceSpecificationGroupDto",
+                    "isLot": false,
+                    "projectCatalogues": [],
+                    "catalogueReferences": [],
+                    "id": "ab20fa94-6985-421f-af08-4bafbed7a3ed",
+                    "gaebXmlId": "ID_da7e2fe1-6313-467b-a630-a11ed3bbcc6c",
+                    "elementTypeDiscriminator": "ServiceSpecificationGroupDto"
+                },
+                {
+                    "projectHourlyWage": 0,
+                    "projectTaxRate": 0.19,
+                    "projectPriceComponents": [
+                        "Material",
+                        "Geräte"
+                    ],
+                    "projectItemNumberSchema": {
+                        "totalLength": 7,
+                        "tiers": [
+                            {
+                                "length": 2,
+                                "type": "Numeric",
+                                "tierType": "Group",
+                                "isLot": false
+                            },
+                            {
+                                "length": 2,
+                                "type": "Numeric",
+                                "tierType": "Group",
+                                "isLot": false
+                            },
+                            {
+                                "length": 3,
+                                "type": "Numeric",
+                                "tierType": "Position",
+                                "isLot": false
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "unitPrice": 9,
+                            "quantity": 950,
+                            "unitTag": "m³",
+                            "labourComponents": {
+                                "label": "Stunden",
+                                "price": 0,
+                                "hourlyWage": 0,
+                                "values": [],
+                                "useOwnHourlyWage": false,
+                                "totalTime": 0
+                            },
+                            "priceComponents": [
+                                {
+                                    "price": 0,
+                                    "label": "Material",
+                                    "values": []
+                                },
+                                {
+                                    "price": 0,
+                                    "label": "Geräte",
+                                    "values": []
+                                },
+                                {
+                                    "price": 9,
+                                    "label": "",
+                                    "values": [
+                                        {
+                                            "formula": "9",
+                                            "result": 9,
+                                            "valid": true,
+                                            "errorPositionInLine": -1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "quantityComponents": [
+                                {
+                                    "formula": "950",
+                                    "result": 950,
+                                    "valid": true,
+                                    "errorPositionInLine": -1
+                                }
+                            ],
+                            "subDescriptions": [],
+                            "comissionStatus": "Undefined",
+                            "complementedBy": [],
+                            "complemented": false,
+                            "amountToBeEnteredByBidder": false,
+                            "priceCompositionRequired": false,
+                            "useDifferentTaxRate": false,
+                            "taxRate": 0.19,
+                            "itemNumber": {
+                                "id": "193e0392-bfd3-49c6-be89-264c7c57b752",
+                                "stringRepresentation": "02.02.001",
+                                "isSchemaCompliant": true,
+                                "itemNumberSchema": {
+                                    "totalLength": 7,
+                                    "tiers": [
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 3,
+                                            "type": "Numeric",
+                                            "tierType": "Position",
+                                            "isLot": false
+                                        }
+                                    ]
+                                },
+                                "identifiers": [
+                                    "02",
+                                    "02",
+                                    "001"
+                                ],
+                                "isLot": false
+                            },
+                            "deductionFactor": 0,
+                            "totalPrice": 8550,
+                            "totalPriceGross": 10174.5,
+                            "totalPriceGrossDeducted": 10174.5,
+                            "deductedPrice": 8550,
+                            "positionType": "Regular",
+                            "priceType": "WithTotal",
+                            "serviceType": "Regular",
+                            "shortText": "Aushub",
+                            "longText": "Aushub für Baugrube",
+                            "htmlLongText": "<span>Aushub für Baugrube</span>",
+                            "additionType": "None",
+                            "elementType": "PositionDto",
+                            "quantityAssignments": [],
+                            "isLumpSum": false,
+                            "projectCatalogues": [],
+                            "catalogueReferences": [],
+                            "complementedByQuantities": [],
+                            "id": "4646216d-7968-4790-9ea5-bffd9808d7c9",
+                            "gaebXmlId": "ID_952b049b-b412-4d00-99f0-d45e65693a8c",
+                            "elementTypeDiscriminator": "PositionDto"
+                        },
+                        {
+                            "unitPrice": 6,
+                            "quantity": 600,
+                            "unitTag": "m³",
+                            "labourComponents": {
+                                "label": "Stunden",
+                                "price": 0,
+                                "hourlyWage": 0,
+                                "values": [],
+                                "useOwnHourlyWage": false,
+                                "totalTime": 0
+                            },
+                            "priceComponents": [
+                                {
+                                    "price": 0,
+                                    "label": "Material",
+                                    "values": []
+                                },
+                                {
+                                    "price": 0,
+                                    "label": "Geräte",
+                                    "values": []
+                                },
+                                {
+                                    "price": 6,
+                                    "label": "",
+                                    "values": [
+                                        {
+                                            "formula": "6",
+                                            "result": 6,
+                                            "valid": true,
+                                            "errorPositionInLine": -1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "quantityComponents": [
+                                {
+                                    "formula": "600",
+                                    "result": 600,
+                                    "valid": true,
+                                    "errorPositionInLine": -1
+                                }
+                            ],
+                            "subDescriptions": [],
+                            "comissionStatus": "Undefined",
+                            "complementedBy": [],
+                            "complemented": false,
+                            "amountToBeEnteredByBidder": false,
+                            "priceCompositionRequired": false,
+                            "useDifferentTaxRate": false,
+                            "taxRate": 0.19,
+                            "itemNumber": {
+                                "id": "a68a4e6c-2655-4a4f-97aa-dd71e3ad217b",
+                                "stringRepresentation": "02.02.002",
+                                "isSchemaCompliant": true,
+                                "itemNumberSchema": {
+                                    "totalLength": 7,
+                                    "tiers": [
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 3,
+                                            "type": "Numeric",
+                                            "tierType": "Position",
+                                            "isLot": false
+                                        }
+                                    ]
+                                },
+                                "identifiers": [
+                                    "02",
+                                    "02",
+                                    "002"
+                                ],
+                                "isLot": false
+                            },
+                            "deductionFactor": 0,
+                            "totalPrice": 3600,
+                            "totalPriceGross": 4284,
+                            "totalPriceGrossDeducted": 4284,
+                            "deductedPrice": 3600,
+                            "positionType": "Regular",
+                            "priceType": "WithTotal",
+                            "serviceType": "Regular",
+                            "shortText": "Wiederverfüllen",
+                            "longText": "Wiederverfüllen von nicht entsorgtem Material, anfüllen an zu errichtendes Gebäude",
+                            "htmlLongText": "<span>Wiederverfüllen von nicht entsorgtem Material, anfüllen an zu errichtendes Gebäude</span>",
+                            "additionType": "None",
+                            "elementType": "PositionDto",
+                            "quantityAssignments": [],
+                            "isLumpSum": false,
+                            "projectCatalogues": [],
+                            "catalogueReferences": [],
+                            "complementedByQuantities": [],
+                            "id": "33a9161e-a12f-4809-9574-28482258cfdf",
+                            "gaebXmlId": "ID_7fd784b7-5fd9-41b9-858a-7a90567832ee",
+                            "elementTypeDiscriminator": "PositionDto"
+                        },
+                        {
+                            "unitPrice": 12,
+                            "quantity": 350,
+                            "unitTag": "m³",
+                            "labourComponents": {
+                                "label": "Stunden",
+                                "price": 0,
+                                "hourlyWage": 0,
+                                "values": [],
+                                "useOwnHourlyWage": false,
+                                "totalTime": 0
+                            },
+                            "priceComponents": [
+                                {
+                                    "price": 0,
+                                    "label": "Material",
+                                    "values": []
+                                },
+                                {
+                                    "price": 0,
+                                    "label": "Geräte",
+                                    "values": []
+                                },
+                                {
+                                    "price": 12,
+                                    "label": "",
+                                    "values": [
+                                        {
+                                            "formula": "12",
+                                            "result": 12,
+                                            "valid": true,
+                                            "errorPositionInLine": -1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "quantityComponents": [
+                                {
+                                    "formula": "350",
+                                    "result": 350,
+                                    "valid": true,
+                                    "errorPositionInLine": -1
+                                }
+                            ],
+                            "subDescriptions": [],
+                            "comissionStatus": "Undefined",
+                            "complementedBy": [],
+                            "complemented": false,
+                            "amountToBeEnteredByBidder": false,
+                            "priceCompositionRequired": false,
+                            "useDifferentTaxRate": false,
+                            "taxRate": 0.19,
+                            "itemNumber": {
+                                "id": "e7e03895-6ef6-44d7-a532-78954af18603",
+                                "stringRepresentation": "02.02.003",
+                                "isSchemaCompliant": true,
+                                "itemNumberSchema": {
+                                    "totalLength": 7,
+                                    "tiers": [
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 3,
+                                            "type": "Numeric",
+                                            "tierType": "Position",
+                                            "isLot": false
+                                        }
+                                    ]
+                                },
+                                "identifiers": [
+                                    "02",
+                                    "02",
+                                    "003"
+                                ],
+                                "isLot": false
+                            },
+                            "deductionFactor": 0,
+                            "totalPrice": 4200,
+                            "totalPriceGross": 4998,
+                            "totalPriceGrossDeducted": 4998,
+                            "deductedPrice": 4200,
+                            "positionType": "Regular",
+                            "priceType": "WithTotal",
+                            "serviceType": "Regular",
+                            "shortText": "Entsorgung Aushub",
+                            "longText": "Entsorgung von überschüssigem Aushub, ohne Verunreinigungen",
+                            "htmlLongText": "<span>Entsorgung von überschüssigem Aushub, ohne Verunreinigungen</span>",
+                            "additionType": "None",
+                            "elementType": "PositionDto",
+                            "quantityAssignments": [],
+                            "isLumpSum": false,
+                            "projectCatalogues": [],
+                            "catalogueReferences": [],
+                            "complementedByQuantities": [],
+                            "id": "194fdf3d-b6b3-49c1-a215-48a9ceef0897",
+                            "gaebXmlId": "ID_1ddc976e-0011-42d2-a575-b34a3b3eb2db",
+                            "elementTypeDiscriminator": "PositionDto"
+                        },
+                        {
+                            "unitPrice": 40,
+                            "quantity": 800,
+                            "unitTag": "m²",
+                            "labourComponents": {
+                                "label": "Stunden",
+                                "price": 0,
+                                "hourlyWage": 0,
+                                "values": [],
+                                "useOwnHourlyWage": false,
+                                "totalTime": 0
+                            },
+                            "priceComponents": [
+                                {
+                                    "price": 0,
+                                    "label": "Material",
+                                    "values": []
+                                },
+                                {
+                                    "price": 0,
+                                    "label": "Geräte",
+                                    "values": []
+                                },
+                                {
+                                    "price": 40,
+                                    "label": "",
+                                    "values": [
+                                        {
+                                            "formula": "40",
+                                            "result": 40,
+                                            "valid": true,
+                                            "errorPositionInLine": -1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "quantityComponents": [
+                                {
+                                    "formula": "800",
+                                    "result": 800,
+                                    "valid": true,
+                                    "errorPositionInLine": -1
+                                }
+                            ],
+                            "subDescriptions": [],
+                            "comissionStatus": "Undefined",
+                            "complementedBy": [],
+                            "complemented": false,
+                            "amountToBeEnteredByBidder": false,
+                            "priceCompositionRequired": false,
+                            "useDifferentTaxRate": false,
+                            "taxRate": 0.19,
+                            "itemNumber": {
+                                "id": "57d93e08-fb9c-4b7d-876c-ca894f394024",
+                                "stringRepresentation": "02.02.004",
+                                "isSchemaCompliant": true,
+                                "itemNumberSchema": {
+                                    "totalLength": 7,
+                                    "tiers": [
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 3,
+                                            "type": "Numeric",
+                                            "tierType": "Position",
+                                            "isLot": false
+                                        }
+                                    ]
+                                },
+                                "identifiers": [
+                                    "02",
+                                    "02",
+                                    "004"
+                                ],
+                                "isLot": false
+                            },
+                            "deductionFactor": 0,
+                            "totalPrice": 32000,
+                            "totalPriceGross": 38080,
+                            "totalPriceGrossDeducted": 38080,
+                            "deductedPrice": 32000,
+                            "positionType": "Regular",
+                            "priceType": "WithTotal",
+                            "serviceType": "Regular",
+                            "shortText": "Decken, Stahlbeton",
+                            "additionType": "None",
+                            "elementType": "PositionDto",
+                            "quantityAssignments": [],
+                            "isLumpSum": false,
+                            "projectCatalogues": [],
+                            "catalogueReferences": [],
+                            "complementedByQuantities": [],
+                            "id": "3bd307e4-fbf6-478f-aae0-84b5f609bb46",
+                            "gaebXmlId": "ID_69152aa6-a6cd-49eb-a578-f2b4c0a8751c",
+                            "elementTypeDiscriminator": "PositionDto"
+                        },
+                        {
+                            "unitPrice": 35,
+                            "quantity": 240,
+                            "unitTag": "m²",
+                            "labourComponents": {
+                                "label": "Stunden",
+                                "price": 0,
+                                "hourlyWage": 0,
+                                "values": [],
+                                "useOwnHourlyWage": false,
+                                "totalTime": 0
+                            },
+                            "priceComponents": [
+                                {
+                                    "price": 0,
+                                    "label": "Material",
+                                    "values": []
+                                },
+                                {
+                                    "price": 0,
+                                    "label": "Geräte",
+                                    "values": []
+                                },
+                                {
+                                    "price": 35,
+                                    "label": "",
+                                    "values": [
+                                        {
+                                            "formula": "35",
+                                            "result": 35,
+                                            "valid": true,
+                                            "errorPositionInLine": -1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "quantityComponents": [
+                                {
+                                    "formula": "240",
+                                    "result": 240,
+                                    "valid": true,
+                                    "errorPositionInLine": -1
+                                }
+                            ],
+                            "subDescriptions": [],
+                            "comissionStatus": "Undefined",
+                            "complementedBy": [],
+                            "complemented": false,
+                            "amountToBeEnteredByBidder": false,
+                            "priceCompositionRequired": false,
+                            "useDifferentTaxRate": false,
+                            "taxRate": 0.19,
+                            "itemNumber": {
+                                "id": "39a91da9-f1f2-4f09-97d3-376c26bf43b6",
+                                "stringRepresentation": "02.02.005",
+                                "isSchemaCompliant": true,
+                                "itemNumberSchema": {
+                                    "totalLength": 7,
+                                    "tiers": [
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 2,
+                                            "type": "Numeric",
+                                            "tierType": "Group",
+                                            "isLot": false
+                                        },
+                                        {
+                                            "length": 3,
+                                            "type": "Numeric",
+                                            "tierType": "Position",
+                                            "isLot": false
+                                        }
+                                    ]
+                                },
+                                "identifiers": [
+                                    "02",
+                                    "02",
+                                    "005"
+                                ],
+                                "isLot": false
+                            },
+                            "deductionFactor": 0,
+                            "totalPrice": 8400,
+                            "totalPriceGross": 9996,
+                            "totalPriceGrossDeducted": 9996,
+                            "deductedPrice": 8400,
+                            "positionType": "Regular",
+                            "priceType": "WithTotal",
+                            "serviceType": "Regular",
+                            "shortText": "Wand, 20cm, Stahlbeton",
+                            "additionType": "None",
+                            "elementType": "PositionDto",
+                            "quantityAssignments": [],
+                            "isLumpSum": false,
+                            "projectCatalogues": [],
+                            "catalogueReferences": [],
+                            "complementedByQuantities": [],
+                            "id": "9a33fe0d-85d6-414e-9961-af6ca6ca5190",
+                            "gaebXmlId": "ID_56c02f0d-8c1b-46b7-bb55-64e9b8145fb0",
+                            "elementTypeDiscriminator": "PositionDto"
+                        }
+                    ],
+                    "projectLabourTimeLabel": "Stunden",
+                    "containsDuplicateItemNumbers": false,
+                    "containsDuplicateElementIds": false,
+                    "ignoreDuplicateItemNumbers": false,
+                    "ignoreDuplicateElementIds": false,
+                    "totalPriceGrossByTaxRate": [
+                        {
+                            "taxRate": 0.19,
+                            "deductionFactor": 0,
+                            "totalNet": 56750,
+                            "totalDeducted": 56750,
+                            "totalTax": 10782.5,
+                            "totalGross": 67532.5
+                        }
+                    ],
+                    "ignoreChildPriceUpdates": false,
+                    "deductedPrice": 56750,
+                    "deductionFactor": 0,
+                    "totalPrice": 56750,
+                    "totalPriceGross": 67532.5,
+                    "totalPriceGrossDeducted": 67532.5,
+                    "priceType": "WithTotal",
+                    "shortText": "Erd- und Rohbau",
+                    "comissionStatus": "Undefined",
+                    "itemNumber": {
+                        "id": "9c74dc7a-aa80-4955-908a-debbb901d7cc",
+                        "stringRepresentation": "02.",
+                        "isSchemaCompliant": true,
+                        "itemNumberSchema": {
+                            "totalLength": 7,
+                            "tiers": [
+                                {
+                                    "length": 2,
+                                    "type": "Numeric",
+                                    "tierType": "Group",
+                                    "isLot": false
+                                },
+                                {
+                                    "length": 2,
+                                    "type": "Numeric",
+                                    "tierType": "Group",
+                                    "isLot": false
+                                },
+                                {
+                                    "length": 3,
+                                    "type": "Numeric",
+                                    "tierType": "Position",
+                                    "isLot": false
+                                }
+                            ]
+                        },
+                        "identifiers": [
+                            "02"
+                        ],
+                        "isLot": false
+                    },
+                    "elementType": "ServiceSpecificationGroupDto",
+                    "isLot": false,
+                    "projectCatalogues": [],
+                    "catalogueReferences": [],
+                    "id": "583fa6bc-10d5-45cf-a0e2-95f90247a127",
+                    "gaebXmlId": "ID_4b4abd6f-dbba-4d71-8e02-e72314320f91",
+                    "elementTypeDiscriminator": "ServiceSpecificationGroupDto"
+                }
+            ],
+            "projectLabourTimeLabel": "Stunden",
+            "containsDuplicateItemNumbers": false,
+            "containsDuplicateElementIds": false,
+            "ignoreDuplicateItemNumbers": false,
+            "ignoreDuplicateElementIds": false,
+            "totalPriceGrossByTaxRate": [
+                {
+                    "taxRate": 0.19,
+                    "deductionFactor": 0,
+                    "totalNet": 57550,
+                    "totalDeducted": 57550,
+                    "totalTax": 10934.5,
+                    "totalGross": 68484.5
+                }
+            ],
+            "ignoreChildPriceUpdates": false,
+            "deductedPrice": 57550,
+            "deductionFactor": 0,
+            "totalPrice": 57550,
+            "totalPriceGross": 68484.5,
+            "totalPriceGrossDeducted": 68484.5,
+            "priceType": "WithTotal",
+            "gaebXmlId": "ID_9529eda2-32d6-4e9c-9f55-facdd87343a1",
+            "projectInformation": {
+                "buyer": {
+                    "id": "6f791e8d-200c-42a8-a540-00f7193821a6",
+                    "name": "Georg Dangl",
+                    "email": "info@dangl-it.com",
+                    "isInEuropeanEconomicArea": false,
+                    "bankingInformation": []
+                },
+                "name": "Neubau Sportheim",
+                "itemNumberSchema": {
+                    "totalLength": 7,
+                    "tiers": [
+                        {
+                            "length": 2,
+                            "type": "Numeric",
+                            "tierType": "Group",
+                            "isLot": false
+                        },
+                        {
+                            "length": 2,
+                            "type": "Numeric",
+                            "tierType": "Group",
+                            "isLot": false
+                        },
+                        {
+                            "length": 3,
+                            "type": "Numeric",
+                            "tierType": "Position",
+                            "isLot": false
+                        }
+                    ]
+                },
+                "currencyShort": "€",
+                "currencyLong": "Euro",
+                "labourTimeLabel": "Stunden",
+                "priceComponents": [
+                    "Material",
+                    "Geräte"
+                ],
+                "bidderCommentAllowed": false,
+                "sideOffersAllowed": false,
+                "awardType": "Unspecified",
+                "specialAwardKind": "Unspecified"
+            },
+            "exchangePhase": "Undefined",
+            "origin": "GaebXml",
+            "creationDate": "2018-02-17T11:07:02Z",
+            "priceInformation": {
+                "id": "428a5d74-bc0c-43dc-8e84-e0e2541cca16",
+                "hourlyWage": 0,
+                "deductionFactor": 0,
+                "flatSum": 0,
+                "taxRate": 0.19,
+                "tradeDiscounts": []
+            },
+            "projectCatalogues": [],
+            "catalogueReferences": []
+        }
+    ],
+    "gaebXmlId": "e9f5153c-ec4a-41c9-b242-ab6b5fc3fd02"
+}

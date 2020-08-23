@@ -17,80 +17,73 @@ let createDiv = (tagName, parent, innerHTML, className) => {
 //   })
 // trigger.add('[data-trigger]')
 
-(() => {
 
-    // HOVER EFFECTS
 
-    let els = document.querySelectorAll("nav.side-nav .social-icons .social-btn");
+
+// HOVER EFFECTS
+
+let els = document.querySelectorAll("nav.side-nav .social-icons .social-btn");
+
+let makeItFlash = (item) => {
+    item.onmouseover = () => {
+        let svg = item.children[0];
+        svg.classList.add("flashing");
+    }
+    item.onmouseout = () => {
+        let svg = item.children[0];
+        svg.classList.remove("flashing");
+    }
+}
+
+for(let item of els){
+    item.classList.add('hidden');
+    makeItFlash(item);
+}
+
+let cover = document.querySelector('.cover')
+let coverBtns = cover.querySelectorAll('.social-btn')
+coverBtns.forEach(btn => {
+    makeItFlash(btn)
+})
+
+
+// ONCLICK EFFECTS
+
+let arrowNav = document.getElementsByClassName("arrow-nav")[0];
+let me = document.getElementsByClassName("me-icon")[0];
+let shown = false;
+
+let toggleMenu = (isShown) => {
     
-    let makeItFlash = (item) => {
-        item.onmouseover = () => {
-            let svg = item.children[0];
-            svg.classList.add("flashing");
+    if(!isShown){
+        arrowNav.parentElement.classList.remove("pos-change-back")
+        arrowNav.parentElement.classList.add("pos-change");
+        for(let i of els){
+            i.classList.remove('hidden')
         }
-        item.onmouseout = () => {
-            let svg = item.children[0];
-            svg.classList.remove("flashing");
+        me.classList.add("hidden")
+        shown = true;
+    }
+    else {
+        arrowNav.parentElement.classList.add("pos-change-back")
+        arrowNav.parentElement.classList.remove("pos-change");
+        for(let i of els){
+            i.classList.add('hidden')
         }
+        me.classList.remove("hidden");
+        shown = false;
     }
+}
 
-    for(let item of els){
-        item.classList.add('hidden');
-        makeItFlash(item);
-    }
-
-    let cover = document.querySelector('.cover')
-    let coverBtns = cover.querySelectorAll('.social-btn')
-    coverBtns.forEach(btn => {
-        makeItFlash(btn)
-    })
+me.onclick = () => {
+    toggleMenu(shown);
+}
+arrowNav.parentElement.onclick = () => {
+    toggleMenu(shown);
     
+}
 
-    // ONCLICK EFFECTS
-
-    let arrowNav = document.getElementsByClassName("arrow-nav")[0];
-    let me = document.getElementsByClassName("me-icon")[0];
-    let shown = false;
-
-    let toggleMenu = (isShown) => {
-        
-        if(!isShown){
-            arrowNav.parentElement.classList.remove("pos-change-back")
-            arrowNav.parentElement.classList.add("pos-change");
-            for(let i of els){
-                i.classList.remove('hidden')
-            }
-            me.classList.add("hidden")
-            shown = true;
-        }
-        else {
-            arrowNav.parentElement.classList.add("pos-change-back")
-            arrowNav.parentElement.classList.remove("pos-change");
-            for(let i of els){
-                i.classList.add('hidden')
-                
-            }
-            me.classList.remove("hidden");
-            shown = false;
-        }
-    }
-
-    me.onclick = () => {
-        toggleMenu(shown);
-    }
-    arrowNav.parentElement.onclick = () => {
-        toggleMenu(shown);
-        
-    }
-
-    // TYPED.JS
-    // var options = {
-    //     strings: [''],
-    //     typeSpeed: 40
-    //   };
-      
-    //   var typed = new Typed('.body-about', options);
 
     
 
-})()
+    

@@ -81,19 +81,19 @@
 
 @-webkit-keyframes floatArrow {
   from {
-    bottom: -5px;
+    bottom: 45px;
   }
   to {
-    bottom: 5px;
+    bottom: 60px;
   }
 }
 
 @keyframes floatArrow {
   from {
-    bottom: -5px;
+    bottom: 45px;
   }
   to {
-    bottom: 5px;
+    bottom: 60px;
   }
 }
 
@@ -104,6 +104,22 @@
 
 #root .side-nav {
   width: 50px;
+}
+
+#root .side-nav .play-button {
+  cursor: pointer;
+}
+
+#root .side-nav .play-button.playing .pause-wrapper {
+  display: block;
+}
+
+#root .side-nav .play-button.playing .play-wrapper {
+  display: none;
+}
+
+#root .side-nav .play-button .pause-wrapper {
+  display: none;
 }
 
 #root .closed {
@@ -279,6 +295,7 @@
 }
 
 #root .player-container .player-wrapper .artwork .cover .play-button {
+  cursor: pointer;
   position: absolute;
   top: -10px;
   bottom: 0;
@@ -289,6 +306,10 @@
   height: 80px;
   background-repeat: no-repeat;
   background-size: content;
+}
+
+#root .player-container .player-wrapper .artwork .cover .play-button.playing {
+  background-image: url("images/icons/pause-btn.svg");
 }
 
 #root .player-container .player-wrapper .artwork .cover .platform-btns {

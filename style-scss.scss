@@ -42,8 +42,8 @@
     }
     
     @keyframes floatArrow {
-        from{ bottom: -5px}
-        to{ bottom: 5px}
+        from{ bottom: 45px}
+        to{ bottom: 60px}
     }
     .logo-wrapper{
         max-width: 90%;
@@ -52,6 +52,22 @@
 
     .side-nav{
         width: 50px;
+        .play-button{
+            cursor: pointer;
+            
+            &.playing{
+                .pause-wrapper{
+                    display: block;
+                }
+                .play-wrapper{
+                    display: none;
+                }
+            }
+            .pause-wrapper{
+                display: none;
+            }
+        }
+        
     }
 
     .closed{
@@ -137,6 +153,7 @@
                     
                     
                     .play-button{
+                        cursor: pointer;
                         position: absolute;
                         top: -10px;
                         bottom: 0;
@@ -147,6 +164,9 @@
                         height: 80px;
                         background-repeat: no-repeat;
                         background-size: content;
+                        &.playing{
+                            background-image: url("images/icons/pause-btn.svg");
+                        }
                     }
                     
                     .platform-btns{
