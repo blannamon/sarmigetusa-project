@@ -59,6 +59,7 @@ body {
 #root .back-img {
     background-image: url(images/main-photo.jpg);
     background-size: cover;
+    position: fixed;
 }
 
 #root .back-img-temp {
