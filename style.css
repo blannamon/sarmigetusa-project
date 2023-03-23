@@ -37,6 +37,8 @@ body {
     right: 0px;
     bottom: 485px;
     margin: 0px auto;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #root .flashing {
